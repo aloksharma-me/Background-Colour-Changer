@@ -1,0 +1,9 @@
+:root{
+    --backgroundColour: #ffffff;
+    --leftBackgroundGradient: linear-gradient(#FFF3F3, #FFFFFF);
+}
+
+
+body{
+    background-color: white;
+}
