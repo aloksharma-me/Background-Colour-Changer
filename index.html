@@ -13,18 +13,38 @@
 
 <body>
     <div class="mainSection">
+        
+        <!-- left container for logo, heading, description and button -->
         <div class="leftContainer">
-            <img src="/src/" alt="logo" srcset="src/logo.png">
-            <div class="heroContainer">
+            
+            <!-- logo, heading and description -->
+            <div class="contentContainer">
+                <img src="/src/" alt="logo" srcset="src/logo.svg">
                 <h1>Colour Changer</h1>
-                <p>This app generates random background colours with each click, perfect for design inspiration, mood setting, or just a splash of fun. <br>
-
+                <p>This app generates random background colours with each click, perfect for design inspiration, mood setting, or just a splash of fun. 
+                <br>
+                <br>
                 Simple, intuitive, and endlessly colourful.</p>
             </div>
-            
-        </div>
-        <div class="rightContainer">
 
+            <!-- button -->
+            <div class="buttonContainer">
+                <button id="btn-change-colour">Change Colour</button>
+            </div>            
+        
+        </div>
+
+        <!-- right container for background and colour value -->
+        <div class="rightContainer">
+            <div class="colourContainer">
+                <div class="colourInsideContainer">
+
+                </div>
+                <div class="valueContainer">
+                    <h4>PANTONE</h4>
+                    <p id="colourHex">#110A22</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
