@@ -1,0 +1,12 @@
+{
+    "type": "module",
+    "name": "background-colour-changer",
+    "version": "1.0.0",
+    "main": "index.html",
+    "scripts": {
+        "main": "./scripts.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}

@@ -18,6 +18,7 @@ body{
     gap: 32px;
 }
 
+/* TODO: figure out why using 100vh adds extra height and scrollbar */
 .leftContainer{
     display: flex;
     flex-direction: column;
@@ -51,6 +52,7 @@ button{
     background-color: var(--buttonBackground);
 }
 
+/* TODO: figure out why using 100vh adds extra height and scrollbar */
 .rightContainer{
     display: flex;
     flex-direction: row;
