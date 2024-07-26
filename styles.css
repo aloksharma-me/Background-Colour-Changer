@@ -50,13 +50,14 @@ p{
     width: 100%;
     border: 2px solid #121212;
     background-color: var(--buttonBackground);
+    border-radius: 4px;
     transition-duration: 0.4s;
 }
 
 #btn:hover{
     border: 2px solid #121212;
-    background-color: var(--lightRed);
-    color: #121212;
+    background-color: #202020;
+    color: var(--white);
     cursor: pointer;
 }
 

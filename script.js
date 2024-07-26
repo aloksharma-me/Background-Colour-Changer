@@ -11,10 +11,16 @@ const colours = [
     {name: "deepBlue", hex: "#041184"},
 ];
 
-let changeColourButton = document.querySelector("#btn");
+let button = document.querySelector("#btn");
+let colourHex = document.querySelector("#colourHex");
+let backgroundColour = document.querySelector(".rightContainer");
+let insideBackgroundColour = document.querySelector(".colourInsideContainer");
+
+button.onclick = changeColour;
 
 function changeColour(){
-    console.log("Changed Colour!!!");
+    let index = Math.ceil(Math.random()*(9-0))
+    backgroundColour.style.backgroundColor = colours[index].hex;
+    insideBackgroundColour.style.backgroundColor = colours[index].hex;
+    colourHex.innerText = colours[index].hex;
 }
-
-changeColourButton.onclick = changeColour();
