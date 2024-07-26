@@ -43,14 +43,28 @@ p{
     line-height: 140%;
 }
 
-button{
+#btn{
     padding: 24px 32px 24px 32px;
     font-size: 1rem;
     color: var(--white);
     width: 100%;
-    border: none;
+    border: 2px solid #121212;
     background-color: var(--buttonBackground);
+    transition-duration: 0.4s;
 }
+
+#btn:hover{
+    border: 2px solid #121212;
+    background-color: var(--lightRed);
+    color: #121212;
+    cursor: pointer;
+}
+
+#btn:active{
+    transform: translateY(4px);
+}
+
+
 
 /* TODO: figure out why using 100vh adds extra height and scrollbar */
 .rightContainer{
