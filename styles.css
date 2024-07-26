@@ -50,7 +50,6 @@ p{
     width: 100%;
     border: 2px solid #121212;
     background-color: var(--buttonBackground);
-    border-radius: 4px;
     transition-duration: 0.4s;
 }
 
