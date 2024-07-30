@@ -87,7 +87,7 @@ p{
 .colourInsideContainer{
     height: 150px;
     width: 150px;
-    background-color: #110A22;
+    background-color: rgb(17,10,34);
 }
 
 .valueContainer h4, p{
